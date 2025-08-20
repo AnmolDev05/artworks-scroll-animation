@@ -5,10 +5,6 @@ import { SplitText } from "gsap/SplitText";
 import Lenis from "lenis";
 
 
-document.fonts.ready.then(() => {
-  document.body.classList.add("ready");
-});
-
 
 document.addEventListener("DOMContentLoaded", () => {
   gsap.registerPlugin(ScrollTrigger, SplitText);

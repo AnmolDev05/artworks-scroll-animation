@@ -4,18 +4,12 @@
 }
 
 * {
-    overflow: hidden;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body.ready {
-  visibility: visible; 
-}
-
 body {
-    visibility: hidden; 
     font-family: 'Roboto Condensed', sans-serif;
 }
 
